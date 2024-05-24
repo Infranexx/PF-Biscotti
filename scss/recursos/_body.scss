@@ -1,0 +1,86 @@
+body {
+
+    background-color: #d9d9d9;
+
+    .acordeon {
+        margin: 20px;
+    }
+
+    .parrafo--index {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .carrusel img {
+        width: 300px;
+        height: auto;
+    }
+
+    .parrafo--galeria {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+        padding: 30px;
+    }
+
+
+    .imagen--acerca {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        padding: 50px;
+        min-height: 100vh;
+
+    }
+
+    .emotes {
+        text-align: center;
+        padding: 50px;
+    }
+
+    .emotes h1 {
+        background-color: aqua;
+    }
+}
+
+h1 {
+    padding: 50px
+}
+
+
+
+#contacto {
+    min-height: 100vh;
+}
+
+.formulario {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    padding: 150px;
+    margin: 20px;
+
+    h4 {
+        font-family: "Lato";
+    }
+}
+
+.stream {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 50px;
+}
+
+.parrafo--emotes h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
